@@ -1,0 +1,145 @@
+html, body{
+    font-size: 100%;
+	font-family: 'Muli', sans-serif;
+    background:#ffffff;
+    height: 100%;
+}
+body a:hover{
+	text-decoration:none;
+}
+/*-- header --*/
+.agileits_logo{
+	float:left;
+}
+.agileits_logo h1 a{
+	font-size: 1em;
+    color: #212121;
+    text-decoration: none;
+    background: url(../images/1.jpg) no-repeat 0px 0px;
+    height: 75px;
+    display: block;
+    padding-left: 1.8em;
+    padding-top: .3em;
+}
+.agileits_logo h1 a span{
+	color:#ff5000;
+}
+.agileits_logo h1 a i{
+	display:block;
+	text-transform:capitalize;
+	font-size:.3em;
+}
+.w3ls_header_middle {
+    padding: 1em 0;
+}
+.trade_navigation {
+    background:#39bd00;
+}
+.navbar-nav > li {
+    float: none;
+    display: inline-block;
+}
+.navbar {
+    margin-bottom: 0;
+    border: none;
+}
+.navbar-nav > li.act > a {
+	color:#fff;
+}
+.navbar-nav > li > a {
+    padding:15px 28px;
+    text-transform: capitalize;
+    color:#123901;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    background: none;
+}
+.nav > li > a:hover{
+    color: #fff;
+}
+/*-- //header --*/
+/*-- banner --*/
+.carousel .slide .legend {
+    background-color: transparent !important;
+    font-weight: bold;
+    opacity: 1 !important;
+    font-size: 2rem !important;
+}
+.carousel .slide .custom-msg {
+    position: absolute;
+    top: 15px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: black;
+    padding: 10px;
+    font-size: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    opacity: 1;
+    left: 0px;
+    font-weight: bold;
+}
+/*-- //banner --*/
+/*-- footer --*/
+.footer{
+	background:#212121;
+	text-align:center;
+}
+.footer p{
+	color:#fff;
+	margin:1em 0 0;
+	line-height:1.5em;
+}
+/*-- //footer --*/
+.stock-img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+.stock-img-div {
+    text-align: center;
+    vertical-align: middle;
+    padding: 30px;
+}
+.stock-exchange-info {
+    padding: 10px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.stock-exchange-header {
+    padding-bottom: 15px;
+}
+.agileits_search{
+	float: right;
+    width: 80%;
+    margin: 1.2em 0 0;
+}
+#agileinfo_search{
+    width: 30%;
+    margin: 5px;
+}
+#agileinfo_btn {
+    width: 20%;
+    margin: 5px;
+}
+.top-margin {
+    margin-top: 7px;
+}
+.table_trade {
+    border-collapse: collapse;
+    width: 100%;
+}
+.table_trade th, .table_trade td {
+    text-align: left;
+    padding: 8px;
+}
+.table_trade tr:nth-child(even){
+    background-color: #f2f2f2
+}
+.table_trade th {
+    background-color: #39bd00;
+    color: white;
+}
+.stock-table {
+    margin: 40px;
+}
