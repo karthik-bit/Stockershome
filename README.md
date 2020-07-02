@@ -1,2 +1,2 @@
-# scrummaster
-Basic react Js demo project
+Npm intall
+Npm start
